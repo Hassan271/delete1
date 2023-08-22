@@ -13,6 +13,7 @@ function ArrayWithIndexAndValue(array: number[], index: number, value: number) {
   return array;
 }
 console.log("Splice 10 on index#2 = "+ArrayWithIndexAndValue(array,indexValue,valueToBeInserted))
+console.log("Change-1");
 
 // Output -------------------------------------
 // Splice 10 on index#2 = 2,3,10,4,5,6,7
